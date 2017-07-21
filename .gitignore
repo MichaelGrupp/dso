@@ -7,3 +7,29 @@ build-*
 *.so
 *.a
 *.so.*
+
+#no temp files
+*~
+.~*
+**/*~
+**/.~*
+
+#no Pycharm / CLion project files 
+.idea/** 
+**/.idea/
+
+CMakeCache.txt
+**/CMakeFiles/
+**/Makefile
+**/cmake_install.cmake
+CTestTestfile.cmake
+cmake-build-debug/
+
+# qtcreator stuff
+*.creator
+*.creator.user
+*.files
+*.includes
+
+# Visual Studio Code
+.vscode/
